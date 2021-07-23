@@ -1,0 +1,70 @@
+.secondary-card-container {
+   
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.secondary-card-container hr {
+   margin-bottom: 18px;
+}
+
+.secondary-card {
+   display: flex;
+   height: 140px;
+   justify-content: space-around;
+   margin-left: 20px;
+   width: 70%;
+}
+.secondary-card img {
+   width: 200px;
+   height: 100%;
+   object-fit: cover;
+   aspect-ratio: 1/0.8;
+   border-radius: 2px;
+}
+.text-container {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.text-container h4 {
+   font-size: 18px;
+   font-weight: 500;
+   color: rgba(0,0,0,0.7);
+   width: 90%;
+}
+.text-container p {
+   font-size: 10px;
+   color: darkgray;
+   text-align: start;
+   width: 75%;
+   padding: 10px;
+}
+.horizontal-line {
+   height: 10px;
+   background-color: gray;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+   .text-container {
+      width: 100%;
+   }
+   .secondary-card img {
+      width: 100px;
+      height: 100px;
+   }
+   .secondary-card {
+      justify-content: space-around;
+      margin: 0px;
+      width: 100%;
+      height: 100px;
+   }
+   .text-container h4 {
+      font-size: 14px;
+      width: 100%;
+   }
+   .secondary-card-container {
+      padding: 0px;
+   }
+   .text-container p {
+      width: 100%;
+   }
+}

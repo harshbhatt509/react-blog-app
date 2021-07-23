@@ -1,0 +1,30 @@
+.primary-card {
+   width: 300px;
+   height: 280px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.primary-card img {
+   width: 13em;
+   height: 8em;
+   border-radius: 2px;
+   object-fit: cover;
+}
+.primary-card h4 {
+   font-size: 16px;
+   text-align: start;
+   width: 80%;
+   color: rgba(0,0,0,0.7);
+   margin-top: 7px;
+}
+.primary-card p {
+   font-size: 10px;
+   color: darkgray;
+   text-align: start;
+   width: 75%;
+}

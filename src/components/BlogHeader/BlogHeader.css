@@ -1,0 +1,40 @@
+.blog-header-heading-container {
+   display: flex;
+}
+.blog-header-heading-container h1 {
+   margin-left: 2px;
+   font-weight: 900;
+   font-size: 28px;
+
+}
+.blog-header-heading-container h2 {
+   transform: rotate(-90deg);
+   font-weight: 400;
+   font-size: 18px;
+}
+.blog-header {
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 60px 10px 60px;
+   box-shadow: 2px 2px 2px lightgray;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+   .blog-header-heading-container h1 {
+      margin-left: 0px;
+      font-weight: 900;
+      font-size: 20px;
+   }
+   .blog-header-heading-container h2 {
+      transform: rotate(-90deg);
+      font-weight: 400;
+      font-size: 14px;
+   }
+   .blog-header {
+     margin: 0px;
+     width: 100%;
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+}

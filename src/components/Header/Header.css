@@ -1,0 +1,47 @@
+.heading-container {
+   display: flex;   
+   justify-content: center;
+   align-items: center;
+   margin-top: 0.5em;
+}
+.heading-container h1 {
+   margin-left: 10px;
+   font-weight: 900;
+   font-size: 36px;
+
+}
+.heading-container h2 {
+   transform: rotate(-90deg);
+   font-weight: 400;
+   font-size: 24px;
+}
+.nav {
+   width: 100%;
+}
+
+.nav-links {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.header-container {
+   display: flex;
+   justify-content: center;
+}
+.auth-btn-conatiner {
+   position: absolute;
+   right: 20px;
+   top: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 620px) {
+   .header-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .auth-btn-conatiner {
+      position: static;
+      margin-top: 30px;
+   }
+}

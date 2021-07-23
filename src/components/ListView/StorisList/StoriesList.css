@@ -1,0 +1,28 @@
+.stories-list-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.story-card h4{
+   font-size: 18px;
+   font-weight: 600;
+   color: black;
+}
+.story-card p {
+   font-size: 10px;
+   color: darkgray;
+   text-align: start;
+   width: 75%;
+}
+.story-card {
+   width: 270px;
+   padding: 10px;
+   border-right: solid 1px rgba(0,0,0,0.3);
+   height: 150px;
+   margin-right: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 620px) {
+   .stories-list-container {
+      flex-direction: column;
+   }
+}

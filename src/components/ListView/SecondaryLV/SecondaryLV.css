@@ -1,0 +1,11 @@
+.secondary-list-cotnainer {
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 640px) {
+   .secondary-list-cotnainer {
+      margin: 0px;
+      margin-left: 5px;
+   }
+}
